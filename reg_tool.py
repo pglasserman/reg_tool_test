@@ -21,12 +21,12 @@ Features:
 - Adjust train-test split ratio
 - View regression coefficients, in-sample and out-of-sample R², and predictions table
 """
-SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
+#SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+from scikit-learn.model_selection import train_test_split
 import statsmodels.api as sm
 
 
