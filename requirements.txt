@@ -1,0 +1,5 @@
+streamlit
+pandas
+numpy
+sklearn.model_selection
+statsmodels.api
